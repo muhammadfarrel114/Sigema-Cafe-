@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sigema Café — Tempat nongkrong estetik dengan kopi premium, makanan ringan artisan, dan suasana hangat yang menenangkan jiwa. Kunjungi kami hari ini!">
+  <meta name="keywords" content="cafe, kopi, coffee shop, estetik, nongkrong, pastry, matcha, latte">
+  <meta name="author" content="Sigema Café">
+  <title>Sigema Café — Aroma, Rasa & Ketenangan</title>
+
+  <!-- Favicon (coffee emoji fallback) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☕</text></svg>">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <header class="navbar" id="navbar">
+    <div class="container">
+      <a href="#beranda" class="nav-logo" aria-label="Sigema Café Home">
+        <div class="logo-icon"><i class="ri-cup-line"></i></div>
+        <span class="logo-text">Sigema Café</span>
+      </a>
+
+      <nav class="nav-links" id="nav-links" aria-label="Navigasi Utama">
+        <a href="#beranda" class="active">Beranda</a>
+        <a href="#tentang">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#lokasi">Lokasi</a>
+      </nav>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle Menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Overlay -->
+  <div class="nav-overlay" id="nav-overlay"></div>
+
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section class="hero" id="beranda">
+    <div class="hero-bg">
+      <img src="assets/images/hero-bg.jpg" alt="Suasana interior hangat Sigema Café dengan pencahayaan golden hour" loading="eager">
+    </div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="dot"></span>
+        Buka Setiap Hari — 08:00 s.d 22:00
+      </div>
+
+      <h1 class="hero-title">
+        Temukan <span class="italic">Ketenangan</span><br>
+        dalam Setiap Tegukan
+      </h1>
+
+      <p class="hero-description">
+        Nikmati kopi pilihan yang diracik dengan sepenuh hati, ditemani suasana hangat
+        dan estetika yang memanjakan setiap indera Anda.
+      </p>
+
+      <div class="hero-actions">
+        <a href="#menu" class="btn btn-primary" id="cta-lihat-menu">
+          <i class="ri-cup-line"></i> Lihat Menu
+        </a>
+        <a href="#tentang" class="btn btn-outline" id="cta-tentang-kami">
+          Tentang Kami <i class="ri-arrow-right-line"></i>
+        </a>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- ==================== ABOUT SECTION ==================== -->
+  <section class="about" id="tentang">
+    <div class="container">
+      <div class="about-grid">
+
+        <!-- Image Side -->
+        <div class="about-image-wrapper reveal-left">
+          <div class="about-image">
+            <img src="assets/images/about-coffee.jpg" alt="Latte art dengan biji kopi, karya barista Sigema Café" loading="lazy">
+          </div>
+          <div class="about-image-badge">
+            <span class="counter-value" data-target="5">0</span>+
+            <small>Tahun Melayani</small>
+          </div>
+        </div>
+
+        <!-- Content Side -->
+        <div class="about-content reveal-right">
+          <span class="section-label">Cerita Kami</span>
+          <h2 class="section-title">
+            Lebih dari Sekadar<br>
+            <span class="accent">Secangkir Kopi</span>
+          </h2>
+          <p class="section-subtitle">
+            Berawal dari kecintaan terhadap kopi dan komunitas, Sigema Café hadir
+            sebagai ruang hangat untuk bercerita, berkarya, dan menikmati momen terbaik.
+          </p>
+          <p class="about-text">
+            Setiap biji kopi kami dipilih langsung dari petani lokal terbaik di Indonesia.
+            Diproses dengan metode yang cermat dan diracik oleh barista berpengalaman,
+            kami menghadirkan cita rasa autentik yang tak terlupakan — dalam setiap cangkir.
+          </p>
+
+          <div class="about-features">
+            <div class="about-feature reveal">
+              <div class="feature-icon"><i class="ri-leaf-line"></i></div>
+              <div>
+                <h4>Biji Kopi Pilihan</h4>
+                <p>Single origin dari Nusantara</p>
+              </div>
+            </div>
+            <div class="about-feature reveal">
+              <div class="feature-icon"><i class="ri-user-star-line"></i></div>
+              <div>
+                <h4>Barista Profesional</h4>
+                <p>Terlatih & bersertifikat</p>
+              </div>
+            </div>
+            <div class="about-feature reveal">
+              <div class="feature-icon"><i class="ri-home-heart-line"></i></div>
+              <div>
+                <h4>Tempat Nyaman</h4>
+                <p>Desain interior estetik</p>
+              </div>
+            </div>
+            <div class="about-feature reveal">
+              <div class="feature-icon"><i class="ri-wifi-line"></i></div>
+              <div>
+                <h4>WiFi Gratis</h4>
+                <p>Cocok untuk bekerja</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== MENU SECTION ==================== -->
+  <section class="menu" id="menu">
+    <div class="container">
+
+      <!-- Header -->
+      <div class="menu-header reveal">
+        <span class="section-label">Menu Kami</span>
+        <h2 class="section-title">
+          Racikan <span class="accent">Terbaik</span> untuk Anda
+        </h2>
+        <p class="section-subtitle">
+          Dari espresso yang bold hingga pastry yang lembut — kami menyajikan
+          pengalaman rasa yang tak terlupakan.
+        </p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="menu-filters reveal">
+        <button class="filter-btn active" data-filter="semua" id="filter-semua">Semua</button>
+        <button class="filter-btn" data-filter="kopi" id="filter-kopi"><i class="ri-cup-line"></i> Kopi</button>
+        <button class="filter-btn" data-filter="non-kopi" id="filter-non-kopi"><i class="ri-goblet-line"></i> Non-Kopi</button>
+        <button class="filter-btn" data-filter="camilan" id="filter-camilan"><i class="ri-cake-3-line"></i> Camilan</button>
+      </div>
+
+      <!-- Menu Grid -->
+      <div class="menu-grid">
+
+        <!-- Card 1: Espresso -->
+        <div class="menu-card reveal" data-category="kopi">
+          <div class="menu-card-image">
+            <img src="assets/images/menu-espresso.jpg" alt="Espresso shot dengan crema sempurna" loading="lazy">
+          </div>
+          <div class="menu-card-body">
+            <span class="menu-card-category">Kopi</span>
+            <h3 class="menu-card-name">Espresso</h3>
+            <p class="menu-card-desc">Shot espresso pekat dengan crema keemasan, diekstrak dari biji Arabica pilihan.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">Rp 22K</span>
+              <button class="btn-order" id="order-espresso">Pesan <i class="ri-arrow-right-s-line"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Caffè Latte -->
+        <div class="menu-card reveal" data-category="kopi">
+          <div class="menu-card-image">
+            <img src="assets/images/menu-latte.jpg" alt="Caffè Latte dengan latte art rosetta" loading="lazy">
+            <span class="menu-card-badge">Populer</span>
+          </div>
+          <div class="menu-card-body">
+            <span class="menu-card-category">Kopi</span>
+            <h3 class="menu-card-name">Caffè Latte</h3>
+            <p class="menu-card-desc">Perpaduan lembut espresso dan susu segar, dihiasi latte art cantik oleh barista kami.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">Rp 32K</span>
+              <button class="btn-order" id="order-latte">Pesan <i class="ri-arrow-right-s-line"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Cappuccino -->
+        <div class="menu-card reveal" data-category="kopi">
+          <div class="menu-card-image">
+            <img src="assets/images/menu-cappuccino.jpg" alt="Cappuccino dengan foam tebal dan cocoa powder" loading="lazy">
+          </div>
+          <div class="menu-card-body">
+            <span class="menu-card-category">Kopi</span>
+            <h3 class="menu-card-name">Cappuccino</h3>
+            <p class="menu-card-desc">Foam susu tebal dengan taburan cocoa powder, seimbang antara kopi dan susu.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">Rp 30K</span>
+              <button class="btn-order" id="order-cappuccino">Pesan <i class="ri-arrow-right-s-line"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 4: Affogato -->
+        <div class="menu-card reveal" data-category="kopi">
+          <div class="menu-card-image">
+            <img src="assets/images/menu-affogato.jpg" alt="Affogato - es krim vanilla dengan espresso" loading="lazy">
+            <span class="menu-card-badge">Favorit</span>
+          </div>
+          <div class="menu-card-body">
+            <span class="menu-card-category">Kopi</span>
+            <h3 class="menu-card-name">Affogato</h3>
+            <p class="menu-card-desc">Es krim vanilla premium yang disiram espresso panas — manis bertemu pahit yang adiktif.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">Rp 35K</span>
+              <button class="btn-order" id="order-affogato">Pesan <i class="ri-arrow-right-s-line"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 5: Matcha Latte -->
+        <div class="menu-card reveal" data-category="non-kopi">
+          <div class="menu-card-image">
+            <img src="assets/images/menu-matcha.jpg" alt="Iced Matcha Latte dengan warna hijau vibrant" loading="lazy">
+            <span class="menu-card-badge">Populer</span>
+          </div>
+          <div class="menu-card-body">
+            <span class="menu-card-category">Non-Kopi</span>
+            <h3 class="menu-card-name">Iced Matcha Latte</h3>
+            <p class="menu-card-desc">Matcha ceremonial grade Jepang dicampur susu segar dingin — segar dan menenangkan.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">Rp 35K</span>
+              <button class="btn-order" id="order-matcha">Pesan <i class="ri-arrow-right-s-line"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 6: Hot Chocolate -->
+        <div class="menu-card reveal" data-category="non-kopi">
+          <div class="menu-card-image">
+            <img src="assets/images/menu-chocolate.jpg" alt="Hot Chocolate dengan whipped cream dan marshmallow" loading="lazy">
+          </div>
+          <div class="menu-card-body">
+            <span class="menu-card-category">Non-Kopi</span>
+            <h3 class="menu-card-name">Hot Chocolate Deluxe</h3>
+            <p class="menu-card-desc">Cokelat premium Belgia dengan whipped cream, marshmallow, dan taburan kayu manis.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">Rp 33K</span>
+              <button class="btn-order" id="order-chocolate">Pesan <i class="ri-arrow-right-s-line"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 7: Fresh Orange Juice -->
+        <div class="menu-card reveal" data-category="non-kopi">
+          <div class="menu-card-image">
+            <img src="assets/images/menu-fruitjuice.jpg" alt="Fresh orange juice segar dengan potongan jeruk" loading="lazy">
+          </div>
+          <div class="menu-card-body">
+            <span class="menu-card-category">Non-Kopi</span>
+            <h3 class="menu-card-name">Fresh Orange Juice</h3>
+            <p class="menu-card-desc">Jus jeruk segar yang diperas langsung dari buah pilihan — segar dan kaya vitamin.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">Rp 25K</span>
+              <button class="btn-order" id="order-juice">Pesan <i class="ri-arrow-right-s-line"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 8: Croissant -->
+        <div class="menu-card reveal" data-category="camilan">
+          <div class="menu-card-image">
+            <img src="assets/images/menu-croissant.jpg" alt="Butter croissant berlapis renyah keemasan" loading="lazy">
+            <span class="menu-card-badge">Best Seller</span>
+          </div>
+          <div class="menu-card-body">
+            <span class="menu-card-category">Camilan</span>
+            <h3 class="menu-card-name">Butter Croissant</h3>
+            <p class="menu-card-desc">Croissant berlapis renyah yang dibuat fresh setiap pagi — pasangan sempurna untuk kopi Anda.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">Rp 28K</span>
+              <button class="btn-order" id="order-croissant">Pesan <i class="ri-arrow-right-s-line"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 9: Tiramisu -->
+        <div class="menu-card reveal" data-category="camilan">
+          <div class="menu-card-image">
+            <img src="assets/images/menu-tiramisu.jpg" alt="Tiramisu dengan lapisan mascarpone dan cocoa powder" loading="lazy">
+          </div>
+          <div class="menu-card-body">
+            <span class="menu-card-category">Camilan</span>
+            <h3 class="menu-card-name">Classic Tiramisu</h3>
+            <p class="menu-card-desc">Ladyfinger lembut yang direndam espresso dengan krim mascarpone Italia yang mewah.</p>
+            <div class="menu-card-footer">
+              <span class="menu-card-price">Rp 38K</span>
+              <button class="btn-order" id="order-tiramisu">Pesan <i class="ri-arrow-right-s-line"></i></button>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /menu-grid -->
+
+    </div>
+  </section>
+
+
+  <!-- ==================== LOCATION SECTION ==================== -->
+  <section class="location" id="lokasi">
+    <div class="container">
+
+      <div class="location-grid">
+
+        <!-- Info Side -->
+        <div class="location-info">
+          <div class="reveal-left">
+            <span class="section-label">Temukan Kami</span>
+            <h2 class="section-title">
+              Kunjungi <span class="accent">Sigema Café</span>
+            </h2>
+            <p class="section-subtitle">
+              Kami selalu menanti kedatangan Anda. Datang dan rasakan sendiri
+              kehangatan suasana kami.
+            </p>
+          </div>
+
+          <div class="info-cards">
+            <div class="info-card reveal">
+              <div class="info-card-icon"><i class="ri-map-pin-line"></i></div>
+              <div>
+                <h4>Alamat</h4>
+                <p>Jl. Kopi Nusantara No. 12, Kelurahan Harmoni,<br>Kota Bandung, Jawa Barat 40123</p>
+              </div>
+            </div>
+
+            <div class="info-card reveal">
+              <div class="info-card-icon"><i class="ri-time-line"></i></div>
+              <div>
+                <h4>Jam Operasional</h4>
+                <p>
+                  Senin — Jumat: 08:00 — 22:00<br>
+                  Sabtu — Minggu: 07:00 — 23:00
+                </p>
+              </div>
+            </div>
+
+            <div class="info-card reveal">
+              <div class="info-card-icon"><i class="ri-phone-line"></i></div>
+              <div>
+                <h4>Kontak</h4>
+                <p>
+                  Telepon: <a href="tel:+6281234567890">+62 812-3456-7890</a><br>
+                  Email: <a href="mailto:halo@sigemacafe.id">halo@sigemacafe.id</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="info-card reveal">
+              <div class="info-card-icon"><i class="ri-share-circle-line"></i></div>
+              <div>
+                <h4>Sosial Media</h4>
+                <p>
+                  Instagram: <a href="https://instagram.com" target="_blank" rel="noopener">@sigemacafe</a><br>
+                  TikTok: <a href="https://tiktok.com" target="_blank" rel="noopener">@sigemacafe</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Map Side -->
+        <div class="location-map reveal-right">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.798467114579!2d107.61861531477024!3d-6.902353695003569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e64c5e8866e5%3A0xdd1e19f48f4cc5d0!2sBandung%2C%20Kota%20Bandung%2C%20Jawa%20Barat!5e0!3m2!1sid!2sid!4v1698660000000!5m2!1sid!2sid"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Lokasi Sigema Café di Google Maps">
+          </iframe>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+
+      <div class="footer-grid">
+        <!-- Brand Column -->
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <div class="logo-icon"><i class="ri-cup-line"></i></div>
+            <h3>Sigema Café</h3>
+          </div>
+          <p>
+            Tempat di mana secangkir kopi bisa menyatukan cerita.
+            Datang, duduk, dan rasakan kehangatan kami.
+          </p>
+          <div class="footer-social">
+            <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="ri-instagram-line"></i></a>
+            <a href="https://tiktok.com" target="_blank" rel="noopener" aria-label="TikTok"><i class="ri-tiktok-line"></i></a>
+            <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Twitter"><i class="ri-twitter-x-line"></i></a>
+            <a href="https://wa.me/6281234567890" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="ri-whatsapp-line"></i></a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-column">
+          <h4>Navigasi</h4>
+          <ul>
+            <li><a href="#beranda"><i class="ri-arrow-right-s-line"></i> Beranda</a></li>
+            <li><a href="#tentang"><i class="ri-arrow-right-s-line"></i> Tentang Kami</a></li>
+            <li><a href="#menu"><i class="ri-arrow-right-s-line"></i> Menu</a></li>
+            <li><a href="#lokasi"><i class="ri-arrow-right-s-line"></i> Lokasi</a></li>
+          </ul>
+        </div>
+
+        <!-- Menu -->
+        <div class="footer-column">
+          <h4>Menu Populer</h4>
+          <ul>
+            <li><a href="#menu"><i class="ri-arrow-right-s-line"></i> Caffè Latte</a></li>
+            <li><a href="#menu"><i class="ri-arrow-right-s-line"></i> Matcha Latte</a></li>
+            <li><a href="#menu"><i class="ri-arrow-right-s-line"></i> Affogato</a></li>
+            <li><a href="#menu"><i class="ri-arrow-right-s-line"></i> Butter Croissant</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-column">
+          <h4>Kontak</h4>
+          <ul>
+            <li><a href="tel:+6281234567890"><i class="ri-phone-line"></i> +62 812-3456-7890</a></li>
+            <li><a href="mailto:halo@sigemacafe.id"><i class="ri-mail-line"></i> halo@sigemacafe.id</a></li>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener"><i class="ri-instagram-line"></i> @sigemacafe</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="current-year">2026</span> Sigema Café. All rights reserved.</p>
+        <p>Dibuat dengan <span class="heart"><i class="ri-heart-fill"></i></span> untuk pecinta kopi</p>
+      </div>
+
+    </div>
+  </footer>
+
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
